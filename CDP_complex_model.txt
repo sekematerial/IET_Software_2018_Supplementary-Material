@@ -1,0 +1,230 @@
+word <= 39
+|   watcher <= 1: FALSE
+|   watcher > 1
+|   |   my <= 0
+|   |   |   simple <= 0
+|   |   |   |   have_language <= 0
+|   |   |   |   |   star <= 23: FALSE
+|   |   |   |   |   star > 23
+|   |   |   |   |   |   star <= 33: FALSE
+|   |   |   |   |   |   star > 33: TURE
+|   |   |   |   have_language > 0
+|   |   |   |   |   is_null <= 0
+|   |   |   |   |   |   app <= 0: TURE
+|   |   |   |   |   |   app > 0
+|   |   |   |   |   |   |   committer <= 4
+|   |   |   |   |   |   |   |   comunity <= 5
+|   |   |   |   |   |   |   |   |   comunity <= 1
+|   |   |   |   |   |   |   |   |   |   file <= 0
+|   |   |   |   |   |   |   |   |   |   |   word <= 4: FALSE
+|   |   |   |   |   |   |   |   |   |   |   word > 4
+|   |   |   |   |   |   |   |   |   |   |   |   star <= 4: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   star > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   word <= 18: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   word > 18: TURE
+|   |   |   |   |   |   |   |   |   |   file > 0: TURE
+|   |   |   |   |   |   |   |   |   comunity > 1: TURE
+|   |   |   |   |   |   |   |   comunity > 5: FALSE
+|   |   |   |   |   |   |   committer > 4: TURE
+|   |   |   |   |   is_null > 0
+|   |   |   |   |   |   url_dot <= 0
+|   |   |   |   |   |   |   watcher <= 2: FALSE
+|   |   |   |   |   |   |   watcher > 2
+|   |   |   |   |   |   |   |   watcher <= 89: TURE
+|   |   |   |   |   |   |   |   watcher > 89: FALSE
+|   |   |   |   |   |   url_dot > 0: FALSE
+|   |   |   simple > 0: FALSE
+|   |   my > 0: FALSE
+word > 39
+|   dot <= 0
+|   |   Tutorial <= 0
+|   |   |   url_dot <= 0
+|   |   |   |   example <= 0
+|   |   |   |   |   simple <= 0
+|   |   |   |   |   |   my <= 0
+|   |   |   |   |   |   |   demo <= 0
+|   |   |   |   |   |   |   |   have_language <= 0
+|   |   |   |   |   |   |   |   |   star <= 0: FALSE
+|   |   |   |   |   |   |   |   |   star > 0
+|   |   |   |   |   |   |   |   |   |   app <= 0
+|   |   |   |   |   |   |   |   |   |   |   watcher <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   comunity <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   system <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 258: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 258: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   system > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   comunity > 2: TURE
+|   |   |   |   |   |   |   |   |   |   |   watcher > 0
+|   |   |   |   |   |   |   |   |   |   |   |   star <= 7: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   star > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   framework <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   committer <= 2: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   committer > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star <= 85: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star > 85: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   framework > 0: TURE
+|   |   |   |   |   |   |   |   |   |   app > 0
+|   |   |   |   |   |   |   |   |   |   |   watcher <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   watcher > 0: FALSE
+|   |   |   |   |   |   |   |   have_language > 0
+|   |   |   |   |   |   |   |   |   collection <= 0
+|   |   |   |   |   |   |   |   |   |   word <= 92
+|   |   |   |   |   |   |   |   |   |   |   star <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   watcher <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   committer <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app <= 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 61: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 61: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 51: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 51: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   library <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   theme <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   is_null <= 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   is_null > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star > 2: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   theme > 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   library > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 75: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 75
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   is_null <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity <= 2: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity > 2: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   is_null > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   committer > 3: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   watcher > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   is_null <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   library <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   template <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 71: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 71: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   template > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   committer <= 1: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   committer > 1: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   committer <= 2: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   committer > 2: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app > 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   library > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity > 4: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   is_null > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   watcher <= 1: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   watcher > 1: TURE
+|   |   |   |   |   |   |   |   |   |   |   star > 3: TURE
+|   |   |   |   |   |   |   |   |   |   word > 92
+|   |   |   |   |   |   |   |   |   |   |   watcher <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   committer <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   star <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   app <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   framework <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   file <= 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   file > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   framework > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   plugin <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   http <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   is_null <= 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   is_null > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 896
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word <= 264: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 264: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word > 896: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   http > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   plugin > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity > 9: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   app > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   star > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sample <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sample > 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   have_at > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   app > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   first <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   first > 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   committer > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   is_null <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   test <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   framework <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity <= 6: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   comunity > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   mirror <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   mirror > 0: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   framework > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star <= 1: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star > 1: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   test > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star <= 1: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star > 1: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   is_null > 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   watcher > 0
+|   |   |   |   |   |   |   |   |   |   |   |   is_null <= 0: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   is_null > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   watcher <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   committer <= 6: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   committer > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star <= 3: TURE
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   star > 3: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   |   watcher > 4: TURE
+|   |   |   |   |   |   |   |   |   collection > 0
+|   |   |   |   |   |   |   |   |   |   have_at <= 0: FALSE
+|   |   |   |   |   |   |   |   |   |   have_at > 0
+|   |   |   |   |   |   |   |   |   |   |   star <= 104
+|   |   |   |   |   |   |   |   |   |   |   |   committer <= 3: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   committer > 3: TURE
+|   |   |   |   |   |   |   |   |   |   |   star > 104: FALSE
+|   |   |   |   |   |   |   demo > 0
+|   |   |   |   |   |   |   |   app <= 0
+|   |   |   |   |   |   |   |   |   watcher <= 0: FALSE
+|   |   |   |   |   |   |   |   |   watcher > 0
+|   |   |   |   |   |   |   |   |   |   word <= 151: FALSE
+|   |   |   |   |   |   |   |   |   |   word > 151: TURE
+|   |   |   |   |   |   |   |   app > 0: FALSE
+|   |   |   |   |   |   my > 0
+|   |   |   |   |   |   |   source <= 0: FALSE
+|   |   |   |   |   |   |   source > 0: TURE
+|   |   |   |   |   simple > 0
+|   |   |   |   |   |   watcher <= 0
+|   |   |   |   |   |   |   star <= 0: FALSE
+|   |   |   |   |   |   |   star > 0
+|   |   |   |   |   |   |   |   word <= 205
+|   |   |   |   |   |   |   |   |   plugin <= 0
+|   |   |   |   |   |   |   |   |   |   app <= 0
+|   |   |   |   |   |   |   |   |   |   |   committer <= 1: FALSE
+|   |   |   |   |   |   |   |   |   |   |   committer > 1
+|   |   |   |   |   |   |   |   |   |   |   |   word <= 87: FALSE
+|   |   |   |   |   |   |   |   |   |   |   |   word > 87: TURE
+|   |   |   |   |   |   |   |   |   |   app > 0: TURE
+|   |   |   |   |   |   |   |   |   plugin > 0: TURE
+|   |   |   |   |   |   |   |   word > 205: TURE
+|   |   |   |   |   |   watcher > 0: FALSE
+|   |   |   |   example > 0: FALSE
+|   |   |   url_dot > 0
+|   |   |   |   module <= 0
+|   |   |   |   |   watcher <= 19: FALSE
+|   |   |   |   |   watcher > 19
+|   |   |   |   |   |   word <= 255: TURE
+|   |   |   |   |   |   word > 255: FALSE
+|   |   |   |   module > 0: TURE
+|   |   Tutorial > 0: FALSE
+|   dot > 0: FALSE
